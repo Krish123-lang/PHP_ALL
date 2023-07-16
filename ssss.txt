@@ -1,0 +1,44 @@
+1. Array => An array is a collection of items of same data type stored at contiguous memory locations.
+2. count() => returns the number of elements.
+3. var_dump() => The var_dump() is a built-in function that allows you to dump the information about a variable. The var_dump() function accepts a variable and displays its type and value.
+
+4. int, str, float, bool, array, object, resource, null
+5. Function => A function is a block of organized, reusable code that is used to perform a single, related action.
+6. array_unshift() – add one or more elements to the beginning of an array.
+7. array_push() – add one or more elements to the end of an array.
+8. array_pop() – remove an element from the end of an array and return it.
+9. array_shift() – remove an element from the beginning of an array and return it.
+10. array_keys() – get the keys of an array.
+11. array_key_exists() – check if a key exists in an array.
+12. in_array() – check if a value exists in an array.
+13. array_reverse() – reverse the order of elements in an array.
+14. array_merge() – merge multiple arrays into one.
+15. sort – sort values of an array in the ascending order (or use the rsort() function to sort the values of an array in the descending order).
+16. ksort() – sort array keys of an associative array.
+17. usort() – sort an array with a user-defined function.
+18. asort() – sort an associative array and maintain the index association.
+19. uasort() – sort an associative array with a user-defined comparison function and maintains the index association.
+20. uksort() – sort the keys of an array with a user-defined comparison function.
+
+21. Cookie => A cookie is a piece of data that a web server sends to the web browser. The web browser may store it and send it back in the subsequent requests to the same web server. The web server knows that two requests come from the same web browser by using the same cookie.
+
+22. Session => A session is a way to store information (in variables) to be used across multiple pages. Unlike a cookie, the information is not stored on the users computer.
+
+23. strlen – return the length of a string in bytes.
+substr – search for a substring in a string.
+strpos– locate the first occurrence of a substring in a string.
+str_replace– replace all occurrences of a substring with a new one in a string.
+implode – join an array of strings into a string using a separator.
+explode – split a string by a separator into an array of strings.
+trim – remove the whitespace characters or other characters from both ends of a string.
+ltrim – remove the whitespace characters or other characters from the beginning of a string.
+rtrim – remove the whitespace characters or other characters from the end of a string.
+htmlspecialchars() – show you how to escape special characters in a string.
+str_contains() – return true if a string contains with a substring.
+str_starts_with() – return true if a string starts with a substring.
+str_ends_with() – return true if a string ends with a substring.
+strtolower() – accept a string and return a new string with all alphabetic characters converted to lowercase.
+strtoupper() – accept a string and return a new string with all alphabetic characters converted to uppercase.
+ucfirst() – return a new string with the first alphabetic character converted to uppercase.
+ucwords() – return a new string with the first alphabetic character of each word converted to uppercase.
+
