@@ -15,11 +15,11 @@ echo date_default_timezone_get() . "<br>"; // Asia/Kathmandu
 
 $timeZone = date_default_timezone_get();
 date_default_timezone_set($timeZone);
-echo date("Y-m-d | h:i:sa")."<br>";
+echo date("Y-m-d | h:i:sa") . "<br>";
 
-echo date("Y-m-d | h:i:sa",strtotime("tomorrow")) . "<br>";
-echo date("Y-m-d | h:i:sa",strtotime("next saturday")) . "<br>";
-echo date("Y-m-d | h:i:sa",strtotime("+3 months")) . "<br>";
+echo date("Y-m-d | h:i:sa", strtotime("tomorrow")) . "<br>";
+echo date("Y-m-d | h:i:sa", strtotime("next saturday")) . "<br>";
+echo date("Y-m-d | h:i:sa", strtotime("+3 months")) . "<br>";
 
 
 ?>
